@@ -17,10 +17,13 @@
 
 ; Few Declartion for My Software
 ;This is just checking
+;This is second check
+;this is third change
 !define MY_SOFTWARE_NAME "FREE_LEARNING_APP"
 !define MY_SOFTWARE_VERSION "1.0"
 !define MY_COMPANY_NAME "MY OWN COMPANY"
-!define REG_UNINSTALL "SOFTWARE\WOW6432Node\FreeLearning\EnvCheck"
+define REG_UNINSTALL "SOFTWARE\WOW6432Node\FreeLearning\EnvCheck"
+
 
 ; ------------------------------------------------------------------------
 
