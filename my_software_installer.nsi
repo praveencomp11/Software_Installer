@@ -16,7 +16,7 @@
 ; -----------------------------------------------------------------------
 
 ; Few Declartion for My Software
-
+;This is just checking
 !define MY_SOFTWARE_NAME "FREE_LEARNING_APP"
 !define MY_SOFTWARE_VERSION "1.0"
 !define MY_COMPANY_NAME "MY OWN COMPANY"
