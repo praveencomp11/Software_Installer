@@ -22,7 +22,7 @@
 ;This is fourth change
 !define MY_SOFTWARE_NAME "FREE_LEARNING_APP"
 !define MY_SOFTWARE_VERSION "1.0"
-!define MY_COMPANY_NAME "MY OWN COMPANY"
+!define MY_COMPANY_NAME "MY_OWN_COMPANY"
 !define REG_UNINSTALL "SOFTWARE\WOW6432Node\FreeLearning\EnvCheck"
 
 
@@ -39,10 +39,10 @@
  
 ; ----------------------------------------------------------------------------
 ; The name of our Installer
-Name "${MY_COMPANY_NAME} ${MY_SOFTWARE_NAME} ${MY_SOFTWARE_VERSION}"
+Name "${MY_COMPANY_NAME}_${MY_SOFTWARE_NAME}_${MY_SOFTWARE_VERSION}"
 
 ; The output filname
-OutFile "${MY_COMPANY_NAME} ${MY_SOFTWARE_NAME} ${MY_SOFTWARE_VERSION}.exe"
+OutFile "${MY_COMPANY_NAME}_${MY_SOFTWARE_NAME}_${MY_SOFTWARE_VERSION}.exe"
 
 ;The defaultinstallation directory
 InstallDir $DESKTOP\${MY_SOFTWARE_NAME}
