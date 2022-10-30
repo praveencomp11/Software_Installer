@@ -1,3 +1,4 @@
+//fucnction to read ini file
 Function Read-ini($ini_file_path, $ini_keys_array){
 	$INI= Get-Content $ini_file_path
 	$IniHash=@{}
