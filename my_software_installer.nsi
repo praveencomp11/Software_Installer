@@ -17,10 +17,10 @@
 
 ; Few Declartion for My Software
 
-!define MY_SOFTWARE_NAME "FREE_LEARNING_APP"
+!define MY_SOFTWARE_NAME "AVE_intern"
 !define MY_SOFTWARE_VERSION "1.0"
-!define MY_COMPANY_NAME "MY OWN COMPANY"
-!define REG_UNINSTALL "SOFTWARE\WOW6432Node\FreeLearning\EnvCheck"
+!define MY_COMPANY_NAME "AVE Learning"
+!define REG_UNINSTALL "SOFTWARE\WOW6432Node\AVElearning\EnvCheck"
 
 ; ------------------------------------------------------------------------
 
@@ -41,7 +41,7 @@ Name "${MY_COMPANY_NAME} ${MY_SOFTWARE_NAME} ${MY_SOFTWARE_VERSION}"
 OutFile "${MY_COMPANY_NAME} ${MY_SOFTWARE_NAME} ${MY_SOFTWARE_VERSION}.exe"
 
 ;The defaultinstallation directory
-InstallDir $DESKTOP\${MY_SOFTWARE_NAME}
+InstallDir %ProgramFiles(x86)%\${MY_SOFTWARE_NAME}
 
 Icon "Logo_ico.ico"
 
